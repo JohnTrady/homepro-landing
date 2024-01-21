@@ -1,6 +1,6 @@
 
 
-window.onload = function() {
+
      const contactsBlock = document.querySelector(".my-contacts");
      const closeContactsButton = document.querySelector(".my-contacts__button");
      const openContactsButton = document.querySelector(".my-contacts__button-show");
@@ -24,4 +24,3 @@ window.onload = function() {
      contactsBlock.addEventListener("click", actionsContactsBlock);
 
 
-}
